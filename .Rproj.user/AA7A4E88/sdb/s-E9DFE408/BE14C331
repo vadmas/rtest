@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "a <- 2 \nb <- 7\nsigSg <- 0.5\nn <- 400\n\nx <- runif(n)\ny <- a + b*x  + rnorm(n, sd = sqrt(sigSg))\n(avgX <- mean(x))\n\nwrite(avgX, file=\"avgX.txt\")\n\nplot(x,y)\nabline(a,b,col='hotpink', lwd = 2)\ndev.print(pdf, \"toy-line.pdf\")\n\n",
+    "created" : 1473356526716.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3211380875",
+    "id" : "BE14C331",
+    "lastKnownWriteTime" : 1473786344,
+    "last_content_update" : 1473786344961,
+    "path" : "~/dev/R/stat545-test/script_line.R",
+    "project_path" : "script_line.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
